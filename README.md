@@ -41,3 +41,38 @@ Auf dem nachfolgenden Bild sieht man ein vereinfachtes Verlaufsdiagramm, dass de
 Nach Fertigstellung der Programmierung wurde das Erstdesign des Safes auf Papier gezeich-net und dieses anschließend in ein 3D-CAD-Programm eingefügt. Dort wurden dann noch weitere Änderungen vorgenommen und so die finalen Maße bestimmt. Die Maße betragen 30cm ∙ 20cm ∙ 20cm (B ∙ H ∙ T). Diese wurden noch in das 3D-Programm eingepflegt. Schluss-endlich ergab sich folgendes: (Wesentliche Bauteile beschriftet)
 ![3d-model](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/Safe_3D_blackedges_texted.jpg)
 
+
+Nun wurde noch ein Design für die Tür, an der später die Sensoren usw. sitzen sollten, ange-fertigt. Im nachfolgenden Bild sieht man die Türfront schematisch mit allen anzubringenden Bauteilen. Später wurden allerdings noch Kleinteile sowie das Solenoid-Schloss ergänzt.
+![door_design](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/JuFo_Tresor_T%C3%BCrentwurf.png)
+
+
+***2.5. BAU DES EIGENTLICHEN TRESORS***
+Das Gehäuse des Tresors wurde selbstgebaut, da ein vorgefertigter (Massiv-)Tresor zum ei-nen zu teuer gewesen wäre (wir wollten darauf achten das „Gesamtpaket“ in einem recht preisgünstigen Rahmen zu halten) und zum anderen nicht modular genug wäre, um eigene Bauteile hineinzubauen. Hierzu wurde eine stabile, 12mm dicke Holzplatte aus dem Baumarkt verwendet, die maßge-recht zugesägt und verschraubt wurde. Die Frontplatte bekam einen Ausschnitt für die Tür, die somit den Rahmen von der Tür zum Rest bildet. Anschließend wurde die Tür noch mit den nötigen Ausschnitten für die Elektronikbauteile versehen. (analog zu Abb. 4) Mit Holz und Eisenwaren erhöht sich der Preis von 50€ auf 60€. Nun wurde der Prototyp aufgelöst und die elektronischen Bauteile in das fertige Gehäuse und an die Tür gebaut. Hierfür mussten noch einige Lötarbeiten vonstattengehen, wofür wir viel Zeit und großes Fingerspitzengefühl benötigten. So wurden einige sog. Breakout-Boards für einzelne Komponenten hergestellt, damit diese bei Schadensfall leicht austauschbar sind. Zum Schutz der Elektronik wurde im Innenraum über jener noch eine Acrylglas-Scheibe ein-gefügt, sodass der Tresorraum zweigeteilt ist. Außerdem wurde noch ein Schlüsselschalter für die einfache Wartung eingebaut, mit dem man bei Bedarf mit einer einfachen Parallelschaltung das Relais umgehen kann.
+
+- Frontansicht Supersafe:
+  ![Frontansicht-Supersafe](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/door_finishedfront.png)
+
+- Elektronik Tür Innenansicht:
+  ![Elektronik-Tür-Innenansicht](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/door_finishedback.png)
+
+- Gesamtansicht Supersafe:
+  ![Gesamtansicht-Supersafe](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/safe_overview.png)
+
+
+**3. ERGEBNISSE**
+Durch einige Tests hat sich uns bestätigt, dass unsere Programmierarbeit in Kombination mit dem Arduino reibungslos funktioniert und erfolgreich war. Es sind uns (auch in den verschiedenen Tests) keine Umgehungsmöglichkeiten zu irgendei-nem Punkt in unserem Code aufgefallen, was bei diesem Einsatzgebiet wirklich relevant ist. Nach unseren Maßstäben ist der Tresor sicher!
+
+**4. ZUSAMMENFASSUNG / AUSBLICK**
+Im Großen und Ganzen war unser Projekt erfolgreich und wir haben durch das Projekt viele weitere Arduino-Kenntnisse erlangt und Erfahrungen gesammelt. Insgesamt haben wir für un-ser Projekt ca. 1 Schuljahr gebraucht (bei 1h pro Woche), wovon die Programmierung die meiste Zeit einnahm. Auch die Lötarbeiten waren wie oben beschrieben sehr zeitintensiv und erforderten handwerkliches Geschick und große Sorgfalt.
+Die Elektronik des Tresors, auf die es uns ankam, könnte für (semi-)professionelle Zwecke genutzt werden. Man könnte mit den Komponenten eine Tür zu einem Raum ausstatten, bei dem es zum einen wichtig ist, dass nur befugte Personen den Zutritt erhalten und dass sich die Elektronik zum anderen durch optische und akustische Signale „meldet“, wenn die Tür nicht wieder geschlossen wurde, z.B. beim Zugang zu einem Kühlraum / Medikamentenla-ger. Uns ist bewusst, dass es solche Bauelemente schon als ganzes Paket für die Industrie gibt, allerdings zu höheren Preisen. Wir wissen um die Schwierigkeiten bei der Programmie-rung und Produktion.
+Durch die Beschäftigung mit der Thematik sind wir nun in der Lage solche Teile kostengünstig mithilfe einer Programmierung zu verwenden und für den Eigen-/Hobbybedarf zu nutzen.
+
+**5. LITERATURVERZEICHNIS / QUELLEN**
+  1) https://funduino.de/anleitungen
+  2) https://starthardware.org/arduino-programmieren/
+  3) https://www.arduino.cc/reference/de/
+  
+  Alle Fotos/Grafiken/Abbildungen stammen aus eigener Anfertigung.
+
+**6. UNTERSTÜTZUNGSLEISTUNGEN**
+* Martin Perleth, Physiklehrer, Betreuer Jugend Forscht: Organisatorisches zum Wett-bewerb und Hilfe bei der Langfassung
