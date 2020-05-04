@@ -28,6 +28,7 @@ Als nächstes mussten wir uns erst mit Arduino und C++ vertraut machen, dazu ver
 
 ***2.2. BAU DES PROTOTYPEN / MATERIALBESCHAFFUNG (ELEKTRONIK)***
 Nachdem alle benötigten Materialien beschafft waren, die Gesamt-Kosten für die Elektronik-bauteile betrugen hierbei circa 50 Euro, begannen wir mit dem Bau des ersten Prototypen. (Siehe Abb. 1) Der Bau war nicht besonders problematisch. Es mussten nur die Bauteile ein-zeln auf einem Breadboard platziert und mit anwendungsspezifischen Kabeln verkabelt wer-den. Die Programmierung hingegen stellte uns vor eine große Herausforderung, die wir erst nach intensiver Arbeit lösen konnten.
+![Named_Parts](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/namedparts.png)
 
 ***2.3. PROGRAMMIERUNG***
 Durch die Programmierung wird die Kommunikation zwischen den Sensoren und Aktoren, in unserm Fall angesteuert durch den Arduino-Mega, realisiert. Programmiert wurde das Ganze in der Arduino typischen Programmiersprache „C++“.
@@ -38,5 +39,5 @@ Auf dem nachfolgenden Bild sieht man ein vereinfachtes Verlaufsdiagramm, dass de
 
 ***2.4. PLANUNG DES FINALEN TRESORS***
 Nach Fertigstellung der Programmierung wurde das Erstdesign des Safes auf Papier gezeich-net und dieses anschließend in ein 3D-CAD-Programm eingefügt. Dort wurden dann noch weitere Änderungen vorgenommen und so die finalen Maße bestimmt. Die Maße betragen 30cm ∙ 20cm ∙ 20cm (B ∙ H ∙ T). Diese wurden noch in das 3D-Programm eingepflegt. Schluss-endlich ergab sich folgendes: (Wesentliche Bauteile beschriftet)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![3d-model](https://raw.githubusercontent.com/MoritzLerch/JugendForscht_Supersafe/master/Bilder/Safe_3D_blackedges_texted.jpg)
 
