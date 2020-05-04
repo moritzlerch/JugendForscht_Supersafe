@@ -1,6 +1,7 @@
 # JugendForscht_Supersafe
 
 `Der Supersafe - elektrisch doppelt gesicherter Tresor mit Arduino`
+
 *Von Moritz Lerch und Konrad Götz*
 
 **KURZFASSUNG**
